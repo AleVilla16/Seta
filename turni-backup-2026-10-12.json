@@ -1,0 +1,4285 @@
+{
+ "folders": [
+  {
+   "n": "Invernali 26/27",
+   "subs": [
+    {
+     "n": "Serie turni",
+     "rows": [],
+     "cyc": {
+      "start": "",
+      "rows": [
+       [
+        "Lu803",
+        "Lu703",
+        "Lu802",
+        "Lu702",
+        "Lu804",
+        "Lu713",
+        "R"
+       ],
+       [
+        "Lu801",
+        "Lu803",
+        "Lu700",
+        "Lu701",
+        "Lu800",
+        "Lu712",
+        "R"
+       ],
+       [
+        "Lu804",
+        "Lu704",
+        "Lu803",
+        "Lu703",
+        "Lu802",
+        "Lu714",
+        "R"
+       ],
+       [
+        "Lu704",
+        "Lu804",
+        "Lu702",
+        "Lu800",
+        "Lu703",
+        "Lu812",
+        "R"
+       ],
+       [
+        "Lu800",
+        "Lu702",
+        "Lu804",
+        "Lu704",
+        "Lu803",
+        "Lu710",
+        "R"
+       ],
+       [
+        "Lu701",
+        "Lu700",
+        "Lu801",
+        "Lu804",
+        "Lu700",
+        "Lu810",
+        "R"
+       ],
+       [
+        "Lu700",
+        "Lu701",
+        "Lu800",
+        "Lu801",
+        "Lu704",
+        "Lu711",
+        "R"
+       ],
+       [
+        "Lu702",
+        "Lu800",
+        "Lu701",
+        "Lu803",
+        "Lu701",
+        "Lu715",
+        "R"
+       ],
+       [
+        "Lu802",
+        "Lu801",
+        "Lu703",
+        "Lu802",
+        "Lu702",
+        "R",
+        "R"
+       ],
+       [
+        "Lu703",
+        "Lu802",
+        "Lu704",
+        "Lu700",
+        "Lu801",
+        "Lu811",
+        "R"
+       ]
+      ]
+     }
+    },
+    {
+     "n": "Lunedì-Venerdì",
+     "rows": [
+      {
+       "c": "Lu700",
+       "t": "11100",
+       "s": "05:15",
+       "e": "12:50",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14102-2410 2",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "05:40",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "06:05",
+           "note": ""
+          },
+          {
+           "n": "CASE NUOVE",
+           "o": "06:09",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "06:35",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "06:38",
+           "note": ""
+          }
+         ],
+         "s": "05:40",
+         "e": "06:38",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "06:45",
+         "e": "07:35",
+         "d": "Sosta LUPA-Autost. · BOX 5"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14103-2410 3",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "07:35",
+           "note": ""
+          },
+          {
+           "n": "S.Giorgio",
+           "o": "07:55",
+           "note": ""
+          },
+          {
+           "n": "S.DAMIANO",
+           "o": "08:04",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "08:20",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "08:45",
+           "note": ""
+          }
+         ],
+         "s": "07:35",
+         "e": "08:45",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        },
+        {
+         "k": "pausa",
+         "s": "08:45",
+         "e": "11:00",
+         "d": "Sosta Dep.Lugagnano"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14106-2411 22",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "11:00",
+           "note": "Circa"
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "11:25",
+           "note": "🚌 E51"
+          }
+         ],
+         "s": "11:00",
+         "e": "11:25",
+         "d": "In coincidenza da/per PC"
+        },
+        {
+         "k": "pausa",
+         "s": "11:25",
+         "e": "12:25",
+         "d": "Sosta CARPANETO P.za O."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2411 5",
+         "f": [
+          {
+           "n": "CARPANETO Mun.",
+           "o": "12:25",
+           "note": "🚌 E51"
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "12:50",
+           "note": ""
+          }
+         ],
+         "s": "12:25",
+         "e": "12:50",
+         "d": "In coincidenza da/per PC · Parte dal capolinea della sub."
+        }
+       ],
+       "note": "1° Turno 5:15\nAccendere i Bus"
+      },
+      {
+       "c": "Lu701",
+       "t": "11101",
+       "s": "06:05",
+       "e": "14:15",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE46",
+         "led": "14606-2460 2",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:05",
+           "note": ""
+          },
+          {
+           "n": "Bacedasco Alto",
+           "o": "06:25",
+           "note": ""
+          },
+          {
+           "n": "Lusurasco",
+           "o": "06:48",
+           "note": "Fare orario a Lusurasco"
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "06:55",
+           "note": ""
+          },
+          {
+           "n": "Fontanafredda",
+           "o": "07:05",
+           "note": ""
+          },
+          {
+           "n": "ROVELETO c.",
+           "o": "07:13",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "07:17",
+           "note": ""
+          },
+          {
+           "n": "PONTENURE c.",
+           "o": "07:22",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "07:45",
+           "note": ""
+          }
+         ],
+         "s": "06:05",
+         "e": "07:45",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "07:45",
+           "note": ""
+          },
+          {
+           "n": "Dep.Piacenza",
+           "o": "08:00",
+           "note": ""
+          }
+         ],
+         "s": "07:45",
+         "e": "08:00",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "08:00",
+         "e": "12:55",
+         "d": "Sosta Dep.Piacenza · BOX 1"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE46",
+         "led": "14601-2460 1",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "12:55",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "13:26",
+           "note": ""
+          },
+          {
+           "n": "Lusurasco",
+           "o": "13:32",
+           "note": "Fare orario a Lusurasco"
+          },
+          {
+           "n": "Bacedasco Alto",
+           "o": "13:57",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "14:15",
+           "note": ""
+          }
+         ],
+         "s": "12:55",
+         "e": "14:15",
+         "d": ""
+        }
+       ],
+       "note": "2° Turno\nSpegni bus"
+      },
+      {
+       "c": "Lu702",
+       "t": "11102",
+       "s": "06:37",
+       "e": "14:55",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14104-2410 10",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:37",
+           "note": "Corsia 3"
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "07:02",
+           "note": ""
+          },
+          {
+           "n": "S.Giorgio",
+           "o": "07:12",
+           "note": "No Case Nuove"
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "07:39",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "07:45",
+           "note": ""
+          }
+         ],
+         "s": "06:37",
+         "e": "07:45",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "07:52",
+         "e": "08:40",
+         "d": "Sosta LUPA-Autost. · BOX 9"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE21",
+         "led": "12105-2210 3",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "08:40",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "08:48",
+           "note": ""
+          },
+          {
+           "n": "RIVERGARO P.za",
+           "o": "09:14",
+           "note": ""
+          },
+          {
+           "n": "Casino Agnelli",
+           "o": "09:25",
+           "note": ""
+          },
+          {
+           "n": "TRAVO Paese",
+           "o": "09:32",
+           "note": ""
+          }
+         ],
+         "s": "08:40",
+         "e": "09:32",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "09:32",
+         "e": "09:37",
+         "d": "Sosta TRAVO Paese"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE21",
+         "led": "12112-2211 12",
+         "f": [
+          {
+           "n": "TRAVO Paese",
+           "o": "09:37",
+           "note": ""
+          },
+          {
+           "n": "Casino Agnelli",
+           "o": "09:40",
+           "note": ""
+          },
+          {
+           "n": "RIVERGARO P.za",
+           "o": "09:52",
+           "note": ""
+          },
+          {
+           "n": "PITTOLO v.Galilei",
+           "o": "10:11",
+           "note": "⚠️"
+          },
+          {
+           "n": "P.le Genova-Liceo",
+           "o": "10:28",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "10:34",
+           "note": ""
+          }
+         ],
+         "s": "09:37",
+         "e": "10:34",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "10:49",
+         "e": "13:40",
+         "d": "Sosta Dep.Piacenza · BOX 8"
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Piacenza",
+           "o": "13:40",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "13:55",
+           "note": ""
+          }
+         ],
+         "s": "13:40",
+         "e": "13:55",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 17",
+         "f": [
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "13:55",
+           "note": ""
+          },
+          {
+           "n": "S.Giorgio",
+           "o": "14:20",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "14:30",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "14:55",
+           "note": ""
+          }
+         ],
+         "s": "13:55",
+         "e": "14:55",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": ""
+      },
+      {
+       "c": "Lu703",
+       "t": "11103",
+       "s": "06:37",
+       "e": "15:00",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE45",
+         "led": "14504-2452 6",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:37",
+           "note": "Corsia 4"
+          },
+          {
+           "n": "Prato Ottesola b",
+           "o": "06:42",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "07:02",
+           "note": ""
+          },
+          {
+           "n": "S.Giorgio",
+           "o": "07:11",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "07:39",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "07:45",
+           "note": ""
+          }
+         ],
+         "s": "06:37",
+         "e": "07:45",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "08:00",
+         "e": "09:35",
+         "d": "Sosta Dep.Piacenza - BOX  4"
+        },
+        {
+         "k": "pausa",
+         "s": "09:50",
+         "e": "10:05",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14301-2430 5",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "10:05",
+           "note": ""
+          },
+          {
+           "n": "ROVELETO c.",
+           "o": "10:28",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "10:39",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "11:00",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "11:15",
+           "note": ""
+          }
+         ],
+         "s": "10:05",
+         "e": "11:15",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "11:15",
+         "e": "12:20",
+         "d": "Sosta VERNASCA Piazza"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14320-2430 18",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "12:20",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "12:33",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "12:59",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "13:13",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "13:33",
+           "note": ""
+          }
+         ],
+         "s": "12:20",
+         "e": "13:33",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "13:33",
+         "e": "13:50",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 15",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "13:50",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "14:00",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, ro",
+           "o": "14:03",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "14:35",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "15:00",
+           "note": ""
+          }
+         ],
+         "s": "13:50",
+         "e": "15:00",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": ""
+      },
+      {
+       "c": "Lu704",
+       "t": "11105",
+       "s": "06:45",
+       "e": "15:00",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Lugagnano",
+           "o": "06:45",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "07:00",
+           "note": ""
+          }
+         ],
+         "s": "06:45",
+         "e": "07:00",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14304-2430 6",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "07:00",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "07:13",
+           "note": ""
+          },
+          {
+           "n": "Lusurasco",
+           "o": "07:20",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "07:34",
+           "note": ""
+          },
+          {
+           "n": "ROVELETO c.",
+           "o": "07:45",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "07:48",
+           "note": ""
+          },
+          {
+           "n": "PONTENURE c.",
+           "o": "07:54",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "08:14",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "08:19",
+           "note": ""
+          }
+         ],
+         "s": "07:00",
+         "e": "08:19",
+         "d": "Entra a Crocetta e a Lusurasco."
+        },
+        {
+         "k": "pausa",
+         "s": "08:26",
+         "e": "09:54",
+         "d": "Sosta LUPA-Autost. · Sosta corsia 2"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15101-2510 5",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "09:54",
+           "note": "🚌 E11"
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "10:24",
+           "note": ""
+          }
+         ],
+         "s": "09:54",
+         "e": "10:24",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "10:24",
+         "e": "10:30",
+         "d": "Sosta CARPANETO Mun."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15102-2510 10",
+         "f": [
+          {
+           "n": "CARPANETO Mun.",
+           "o": "10:30",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "11:00",
+           "note": ""
+          }
+         ],
+         "s": "10:30",
+         "e": "11:00",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "11:00",
+           "note": ""
+          },
+          {
+           "n": "Dep.Piacenza",
+           "o": "11:15",
+           "note": ""
+          }
+         ],
+         "s": "11:00",
+         "e": "11:15",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "11:15",
+         "e": "13:35",
+         "d": "Sosta Dep.Piacenza - BOX 6"
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Piacenza",
+           "o": "13:35",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "13:50",
+           "note": ""
+          }
+         ],
+         "s": "13:35",
+         "e": "13:50",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE45",
+         "led": "14501-2452 1",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "13:50",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "14:00",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "14:03",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "14:35",
+           "note": ""
+          },
+          {
+           "n": "Prato Ottesola b",
+           "o": "14:55",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "15:00",
+           "note": "🚌 E48"
+          }
+         ],
+         "s": "13:50",
+         "e": "15:00",
+         "d": "In coincid. da/per Morfasso · A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": "Spegni bus 804"
+      },
+      {
+       "c": "Lu800",
+       "t": "11106",
+       "s": "06:27",
+       "e": "18:50",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE48",
+         "led": "14808-2481 6",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:27",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "06:51",
+           "note": ""
+          },
+          {
+           "n": "Fontanafredda",
+           "o": "06:57",
+           "note": ""
+          },
+          {
+           "n": "ROVELETO c.",
+           "o": "06:59",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "07:02",
+           "note": ""
+          },
+          {
+           "n": "PONTENURE c.",
+           "o": "07:07",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "07:24",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "07:30",
+           "note": ""
+          }
+         ],
+         "s": "06:27",
+         "e": "07:30",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "PCCS",
+         "led": "0200-2620 7",
+         "f": [
+          {
+           "n": "P.le Milano",
+           "o": "07:30",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi rotonda",
+           "o": "07:34",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "07:37",
+           "note": "⚠️"
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "07:46",
+           "note": "⚠️"
+          },
+          {
+           "n": "Strada Agazzana,",
+           "o": "07:56",
+           "note": ""
+          },
+          {
+           "n": "Via E. Mattei P.",
+           "o": "07:57",
+           "note": ""
+          }
+         ],
+         "s": "07:30",
+         "e": "07:57",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Via E. Mattei P.",
+           "o": "07:57",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "08:14",
+           "note": ""
+          }
+         ],
+         "s": "07:57",
+         "e": "08:14",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "08:14",
+         "e": "12:50",
+         "d": "Sosta LUPA-Autost. · Corsia 8"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14301-2430 9",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "12:50",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "13:21",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "13:45",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "14:00",
+           "note": ""
+          }
+         ],
+         "s": "12:50",
+         "e": "14:00",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "14:00",
+         "e": "14:05",
+         "d": "Sosta VERNASCA Piazza"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14322-2430 24",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "14:05",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "14:18",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "14:39",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "15:13",
+           "note": ""
+          }
+         ],
+         "s": "14:05",
+         "e": "15:13",
+         "d": "Entra a Crocetta."
+        },
+        {
+         "k": "pausa",
+         "s": "15:13",
+         "e": "15:20",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE20",
+         "led": "12009-2200 17",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "15:20",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "15:27",
+           "note": ""
+          },
+          {
+           "n": "Gossolengo p.za",
+           "o": "15:47",
+           "note": ""
+          }
+         ],
+         "s": "15:20",
+         "e": "15:47",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "15:47",
+         "e": "15:50",
+         "d": "Sosta Gossolengo p.za"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE20",
+         "led": "12020-2200 22",
+         "f": [
+          {
+           "n": "Gossolengo p.za",
+           "o": "15:50",
+           "note": ""
+          },
+          {
+           "n": "P.le Genova-Liceo",
+           "o": "16:11",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "16:17",
+           "note": ""
+          }
+         ],
+         "s": "15:50",
+         "e": "16:17",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "16:17",
+         "e": "17:55",
+         "d": "Sosta LUPA-Autost. · BOX 10"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 25",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "17:55",
+           "note": ""
+          },
+          {
+           "n": "S.Giorgio",
+           "o": "18:15",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "18:25",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "18:50",
+           "note": ""
+          }
+         ],
+         "s": "17:55",
+         "e": "18:50",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": "Accendi luce Sera\n"
+      },
+      {
+       "c": "Lu801",
+       "t": "11108",
+       "s": "06:27",
+       "e": "20:40",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14102-2410 4",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:27",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "06:52",
+           "note": ""
+          },
+          {
+           "n": "CASE NUOVE",
+           "o": "06:57",
+           "note": ""
+          },
+          {
+           "n": "S.Giorgio",
+           "o": "07:04",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "07:24",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "07:30",
+           "note": ""
+          }
+         ],
+         "s": "06:27",
+         "e": "07:30",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "PCCS",
+         "led": "200-2620 9",
+         "f": [
+          {
+           "n": "P.le Milano",
+           "o": "07:30",
+           "note": ""
+          },
+          {
+           "n": "Via Borghetto,",
+           "o": "07:32",
+           "note": ""
+          },
+          {
+           "n": "V,Taverna 49 Osp",
+           "o": "07:37",
+           "note": ""
+          },
+          {
+           "n": "P.le Genova-Liceo",
+           "o": "07:41",
+           "note": ""
+          },
+          {
+           "n": "Via E. Mattei P.",
+           "o": "07:52",
+           "note": ""
+          }
+         ],
+         "s": "07:30",
+         "e": "07:52",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Via E. Mattei P.",
+           "o": "07:52",
+           "note": ""
+          },
+          {
+           "n": "Dep.Piacenza",
+           "o": "08:07",
+           "note": ""
+          }
+         ],
+         "s": "07:52",
+         "e": "08:07",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "08:07",
+         "e": "13:35",
+         "d": "Sosta Dep.Piacenza · BOX 19"
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Piacenza",
+           "o": "13:35",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "13:50",
+           "note": ""
+          }
+         ],
+         "s": "13:35",
+         "e": "13:50",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE48",
+         "led": "14801-2480 7",
+         "f": [
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "13:50",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "14:15",
+           "note": "La prima fermata in scarico è Cadeo, non prima"
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "14:26",
+           "note": ""
+          },
+          {
+           "n": "Lusurasco",
+           "o": "14:36",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "14:50",
+           "note": ""
+          },
+          {
+           "n": "MORFASSO p.zza",
+           "o": "15:20",
+           "note": ""
+          }
+         ],
+         "s": "13:50",
+         "e": "15:20",
+         "d": "Entra a Lusurasco."
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "MORFASSO p.zza",
+           "o": "15:20",
+           "note": ""
+          },
+          {
+           "n": "Dep.Lugagnano",
+           "o": "15:45",
+           "note": ""
+          }
+         ],
+         "s": "15:20",
+         "e": "15:45",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "15:45",
+         "e": "18:30",
+         "d": "Sosta Dep.Lugagnano"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14128-2410 30",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "18:30",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "18:55",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "19:27",
+           "note": ""
+          }
+         ],
+         "s": "18:30",
+         "e": "19:27",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "19:27",
+         "e": "19:45",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14303-2440 21",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "19:45",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "20:05",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "20:19",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "20:40",
+           "note": ""
+          }
+         ],
+         "s": "19:45",
+         "e": "20:40",
+         "d": ""
+        }
+       ],
+       "note": "Ultimo Turno"
+      },
+      {
+       "c": "Lu802",
+       "t": "11107",
+       "s": "06:40",
+       "e": "20:45",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14132-2410 12",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:40",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "07:05",
+           "note": ""
+          },
+          {
+           "n": "CASE NUOVE",
+           "o": "07:09",
+           "note": ""
+          },
+          {
+           "n": "S.Giorgio",
+           "o": "07:15",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "07:40",
+           "note": ""
+          }
+         ],
+         "s": "06:40",
+         "e": "07:40",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "07:40",
+         "e": "13:55",
+         "d": "Sosta Via IV Novembre "
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 19",
+         "f": [
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "13:55",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "14:30",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "14:55",
+           "note": ""
+          }
+         ],
+         "s": "13:55",
+         "e": "14:55",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        },
+        {
+         "k": "pausa",
+         "s": "14:55",
+         "e": "16:50",
+         "d": "Sosta Dep.Lugagnano"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14128-2410 28",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "16:50",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "17:15",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "17:47",
+           "note": ""
+          }
+         ],
+         "s": "16:50",
+         "e": "17:47",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "17:47",
+         "e": "17:55",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE14",
+         "led": "11401-2141 21",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "17:55",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "18:00",
+           "note": ""
+          },
+          {
+           "n": "AGAZZANO p.zza",
+           "o": "18:35",
+           "note": ""
+          }
+         ],
+         "s": "17:55",
+         "e": "18:35",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "PCE14",
+         "led": "11416-2141 26",
+         "f": [
+          {
+           "n": "AGAZZANO p.zza",
+           "o": "18:35",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "19:10",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "19:15",
+           "note": ""
+          }
+         ],
+         "s": "18:35",
+         "e": "19:15",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "19:15",
+         "e": "19:50",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 33",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "19:50",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "20:20",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "20:45",
+           "note": ""
+          }
+         ],
+         "s": "19:50",
+         "e": "20:45",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": "Cerchiati sul foglio: 5 (corsa 11401-2141 21) e 14 (corsa 14101-2410 33)"
+      },
+      {
+       "c": "Lu803",
+       "t": "11104",
+       "s": "06:02",
+       "e": "18:45",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Lugagnano",
+           "o": "06:02",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "06:17",
+           "note": ""
+          }
+         ],
+         "s": "06:02",
+         "e": "06:17",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14304-2430 4",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "06:17",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:30",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "06:57",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "07:12",
+           "note": ""
+          },
+          {
+           "n": "PONTENURE c.",
+           "o": "07:15",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "07:30",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "07:35",
+           "note": ""
+          }
+         ],
+         "s": "06:17",
+         "e": "07:35",
+         "d": "Entra a Crocetta."
+        },
+        {
+         "k": "pausa",
+         "s": "07:35",
+         "e": "11:58",
+         "d": "Sosta P.le Milano"
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "P.le Milano",
+           "o": "11:58",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "12:05",
+           "note": ""
+          }
+         ],
+         "s": "11:58",
+         "e": "12:05",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14301-2430 7",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "12:05",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "12:25",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "12:39",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "13:00",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "13:15",
+           "note": ""
+          }
+         ],
+         "s": "12:05",
+         "e": "13:15",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "13:15",
+         "e": "13:20",
+         "d": "Sosta VERNASCA Piazza"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14303-2434 22",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "13:20",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "13:30",
+           "note": ""
+          }
+         ],
+         "s": "13:20",
+         "e": "13:30",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14128-2410 24",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "13:30",
+           "note": "🚌 Castell'arquato E43"
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "13:55",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "14:27",
+           "note": ""
+          }
+         ],
+         "s": "13:30",
+         "e": "14:27",
+         "d": "A C.Arquato, nei gg. scol., attende coincidenza da Fiorenzuola per Vigolo M."
+        },
+        {
+         "k": "pausa",
+         "s": "14:27",
+         "e": "16:05",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15101-2510 17",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "16:05",
+           "note": "🚌 E11 🚌 San Giorgio E52"
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "16:35",
+           "note": ""
+          }
+         ],
+         "s": "16:05",
+         "e": "16:35",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2411 23",
+         "f": [
+          {
+           "n": "CARPANETO Mun.",
+           "o": "16:35",
+           "note": "🚌 E51"
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "17:00",
+           "note": ""
+          }
+         ],
+         "s": "16:35",
+         "e": "17:00",
+         "d": "In coincidenza da/per PC · Parte dal capolinea della sub."
+        },
+        {
+         "k": "pausa",
+         "s": "17:20",
+         "e": "18:20",
+         "d": "Sosta FIORENZUOLA FS"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14303-2433 19",
+         "f": [
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "18:20",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "18:45",
+           "note": ""
+          }
+         ],
+         "s": "18:20",
+         "e": "18:45",
+         "d": "In coincid. da/per PC (E50) e da/per Morfasso-P.Casali."
+        }
+       ],
+       "note": "Accendi luce Sera\n"
+      },
+      {
+       "c": "Lu804",
+       "t": "11109",
+       "s": "07:00",
+       "e": "19:50",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE55",
+         "led": "15502-2550 6",
+         "f": [
+          {
+           "n": "LUGAGNANO Piazza",
+           "o": "07:00",
+           "note": ""
+          },
+          {
+           "n": "LUSURASCO",
+           "o": "07:13",
+           "note": ""
+          },
+          {
+           "n": "FIDENZA Foro Boario",
+           "o": "07:35",
+           "note": ""
+          }
+         ],
+         "s": "07:00",
+         "e": "07:35",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "FIDENZA Foro Boario",
+           "o": "07:35",
+           "note": ""
+          },
+          {
+           "n": "Dep.Lugagnano",
+           "o": "07:55",
+           "note": ""
+          }
+         ],
+         "s": "07:35",
+         "e": "07:55",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "07:55",
+         "e": "13:35",
+         "d": "Sosta Dep. Lugagnano"
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Lugagnano",
+           "o": "13:40",
+           "note": ""
+          },
+          {
+           "n": "SALSOMAGGIORE St",
+           "o": "14:05",
+           "note": ""
+          }
+         ],
+         "s": "13:40",
+         "e": "14:05",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE40",
+         "led": "14004-2401 6",
+         "f": [
+          {
+           "n": "SALSOMAGGIORE St",
+           "o": "14:05",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "14:36",
+           "note": ""
+          },
+          {
+           "n": "CORTEMAGGIORE via R",
+           "o": "14:47",
+           "note": ""
+          },
+          {
+           "n": "Lupa-Autost.",
+           "o": "15:18",
+           "note": ""
+          }
+         ],
+         "s": "14:05",
+         "e": "15:18",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "15:18",
+         "e": "16:10",
+         "d": "Sosta Lupa-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE42",
+         "led": "14201-2420 9",
+         "f": [
+          {
+           "n": "Lupa-Autost.",
+           "o": "16:10",
+           "note": ""
+          },
+          {
+           "n": "Cadeo Chiesa",
+           "o": "16:28",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "16:37",
+           "note": ""
+          },
+          {
+           "n": "SAN MICHELE bar",
+           "o": "17:10",
+           "note": ""
+          }
+         ],
+         "s": "16:10",
+         "e": "17:10",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        },
+        {
+         "k": "pausa",
+         "s": "17:10",
+         "e": "17:20",
+         "d": "Sosta SAN Michele bar"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE42",
+         "led": "14206-2420 12",
+         "f": [
+          {
+           "n": "SAN MICHELE bar",
+           "o": "17:20",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "17:53",
+           "note": ""
+          },
+          {
+           "n": "Cadeo Chiesa",
+           "o": "18:02",
+           "note": ""
+          },
+          {
+           "n": "Lupa-Autost.",
+           "o": "18:22",
+           "note": ""
+          }
+         ],
+         "s": "17:20",
+         "e": "18:22",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "18:22",
+         "e": "18:25",
+         "d": "Sosta Lupa-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14301-2430 17",
+         "f": [
+          {
+           "n": "Lupa-Autost.",
+           "o": "18:25",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "18:59",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO Piazza",
+           "o": "19:20",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "19:35",
+           "note": ""
+          }
+         ],
+         "s": "18:25",
+         "e": "19:35",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "19:35",
+           "note": ""
+          },
+          {
+           "n": "Dep.Lugagnano",
+           "o": "19:50",
+           "note": ""
+          }
+         ],
+         "s": "19:35",
+         "e": "19:50",
+         "d": "Corsa a vuoto"
+        }
+       ],
+       "note": "Spegni luce alla mattina"
+      }
+     ]
+    },
+    {
+     "n": "Sabato",
+     "rows": [
+      {
+       "c": "Lu710",
+       "t": "11114",
+       "s": "06:27",
+       "e": "15:00",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14102-2410 4",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:27",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "06:52",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "07:24",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "07:30",
+           "note": ""
+          }
+         ],
+         "s": "06:27",
+         "e": "07:30",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "P.le Milano",
+           "o": "07:30",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "07:37",
+           "note": ""
+          }
+         ],
+         "s": "07:30",
+         "e": "07:37",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "07:37",
+         "e": "08:00",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE17",
+         "led": "11701-2172 5",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "08:00",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "08:05",
+           "note": ""
+          },
+          {
+           "n": "RIVERGARO P.za",
+           "o": "08:30",
+           "note": ""
+          },
+          {
+           "n": "BOBBIO P.za S.F.",
+           "o": "09:10",
+           "note": ""
+          }
+         ],
+         "s": "08:00",
+         "e": "09:10",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "09:15",
+         "e": "10:55",
+         "d": "Sosta Dep.Bobbio"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE17",
+         "led": "11722-2172 20",
+         "f": [
+          {
+           "n": "BOBBIO P.za S.F.",
+           "o": "11:00",
+           "note": ""
+          },
+          {
+           "n": "RIVERGARO P.za",
+           "o": "11:40",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "12:05",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "12:12",
+           "note": ""
+          }
+         ],
+         "s": "11:00",
+         "e": "12:12",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "12:12",
+           "note": ""
+          },
+          {
+           "n": "Dep.Piacenza",
+           "o": "12:27",
+           "note": ""
+          }
+         ],
+         "s": "12:12",
+         "e": "12:27",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "12:27",
+         "e": "13:48",
+         "d": "Sosta Dep.Piacenza"
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Piacenza",
+           "o": "13:48",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "14:03",
+           "note": ""
+          }
+         ],
+         "s": "13:48",
+         "e": "14:03",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE45",
+         "led": "14501-2452 7",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "14:03",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "14:35",
+           "note": ""
+          },
+          {
+           "n": "Prato Ottesola b",
+           "o": "14:55",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "15:00",
+           "note": ""
+          }
+         ],
+         "s": "14:03",
+         "e": "15:00",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": ""
+      },
+      {
+       "c": "Lu712",
+       "t": "11116",
+       "s": "05:40",
+       "e": "13:50",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14102-2410 2",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "05:40",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "06:05",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, ro",
+           "o": "06:35",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "06:38",
+           "note": ""
+          }
+         ],
+         "s": "05:40",
+         "e": "06:38",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "P.le Milano",
+           "o": "06:38",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "06:45",
+           "note": ""
+          }
+         ],
+         "s": "06:38",
+         "e": "06:45",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "06:45",
+         "e": "06:50",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 1",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "06:50",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "07:20",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "07:45",
+           "note": ""
+          }
+         ],
+         "s": "06:50",
+         "e": "07:45",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        },
+        {
+         "k": "pausa",
+         "s": "07:45",
+         "e": "07:50",
+         "d": "Sosta Lugagnano P.za"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14102-2410 20",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "07:50",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "08:15",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, ro",
+           "o": "08:47",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "08:52",
+           "note": ""
+          }
+         ],
+         "s": "07:50",
+         "e": "08:52",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "P.le Milano",
+           "o": "08:52",
+           "note": ""
+          },
+          {
+           "n": "Dep.Piacenza",
+           "o": "09:07",
+           "note": ""
+          }
+         ],
+         "s": "08:52",
+         "e": "09:07",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "09:07",
+         "e": "12:40",
+         "d": "Sosta Dep.Piacenza"
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Piacenza",
+           "o": "12:40",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "12:55",
+           "note": ""
+          }
+         ],
+         "s": "12:40",
+         "e": "12:55",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 11",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "12:55",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "13:25",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "13:50",
+           "note": ""
+          }
+         ],
+         "s": "12:55",
+         "e": "13:50",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": ""
+      },
+      {
+       "c": "Lu713",
+       "t": "11116",
+       "s": "14:05",
+       "e": "19:55",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14106-2411 26",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "14:05",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "14:30",
+           "note": ""
+          }
+         ],
+         "s": "14:05",
+         "e": "14:30",
+         "d": "In coincidenza da/per PC"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15102-2510 18",
+         "f": [
+          {
+           "n": "CARPANETO Mun.",
+           "o": "14:30",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "15:00",
+           "note": ""
+          }
+         ],
+         "s": "14:30",
+         "e": "15:00",
+         "d": "Entra a Case Nuove."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE11",
+         "led": "11119-2111 117",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "15:00",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "15:03",
+           "note": ""
+          },
+          {
+           "n": "V,Taverna 49 Osp",
+           "o": "15:11",
+           "note": ""
+          },
+          {
+           "n": "CSG p.za Gramsci",
+           "o": "15:41",
+           "note": ""
+          },
+          {
+           "n": "BORGONOVO Osp.",
+           "o": "15:51",
+           "note": ""
+          },
+          {
+           "n": "BORGONOVO P.R.",
+           "o": "15:53",
+           "note": ""
+          }
+         ],
+         "s": "15:00",
+         "e": "15:53",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "15:53",
+         "e": "16:08",
+         "d": "Sosta BORGONOVO P.R."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE11",
+         "led": "11104-2111 120",
+         "f": [
+          {
+           "n": "BORGONOVO P.R.",
+           "o": "16:08",
+           "note": ""
+          },
+          {
+           "n": "BORGONOVO St.",
+           "o": "16:09",
+           "note": ""
+          },
+          {
+           "n": "CSG p.za Gramsci",
+           "o": "16:16",
+           "note": ""
+          },
+          {
+           "n": "V,Taverna 49 (Os",
+           "o": "16:46",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "16:53",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, ro",
+           "o": "16:56",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "17:01",
+           "note": ""
+          }
+         ],
+         "s": "16:08",
+         "e": "17:01",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15101-2510 19",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "17:01",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "17:33",
+           "note": ""
+          }
+         ],
+         "s": "17:01",
+         "e": "17:33",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "17:33",
+         "e": "17:40",
+         "d": "Sosta CARPANETO Mun."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15102-2510 24",
+         "f": [
+          {
+           "n": "CARPANETO Mun.",
+           "o": "17:40",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "18:11",
+           "note": ""
+          }
+         ],
+         "s": "17:40",
+         "e": "18:11",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "18:11",
+         "e": "19:00",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 29",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "19:00",
+           "note": ""
+          },
+          {
+           "n": "Carpaneto Mun.",
+           "o": "19:30",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "19:55",
+           "note": ""
+          }
+         ],
+         "s": "19:00",
+         "e": "19:55",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": ""
+      },
+      {
+       "c": "Lu715",
+       "t": "11115",
+       "s": "13:30",
+       "e": "20:40",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14128-2410 24",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "13:30",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "13:55",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "14:27",
+           "note": ""
+          }
+         ],
+         "s": "13:30",
+         "e": "14:27",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "14:27",
+         "e": "16:05",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15101-2510 17",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "16:05",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "16:35",
+           "note": ""
+          }
+         ],
+         "s": "16:05",
+         "e": "16:35",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2411 23",
+         "f": [
+          {
+           "n": "CARPANETO Mun.",
+           "o": "16:35",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "17:00",
+           "note": ""
+          }
+         ],
+         "s": "16:35",
+         "e": "17:00",
+         "d": "In coincidenza da/per PC · Parte dal capolinea della sub."
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Lugagnano",
+           "o": "17:00",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "17:20",
+           "note": ""
+          }
+         ],
+         "s": "17:00",
+         "e": "17:20",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14301-2432 23",
+         "f": [
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "17:20",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "17:45",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "18:00",
+           "note": ""
+          }
+         ],
+         "s": "17:20",
+         "e": "18:00",
+         "d": "Attendere L.E50 da PC"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14322-2430 30",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "18:00",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "18:13",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "18:35",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "18:48",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "19:12",
+           "note": ""
+          }
+         ],
+         "s": "18:00",
+         "e": "19:12",
+         "d": "Entra a Crocetta."
+        },
+        {
+         "k": "pausa",
+         "s": "19:12",
+         "e": "19:45",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14303-2440 21",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "19:45",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "20:19",
+           "note": ""
+          },
+          {
+           "n": "C.ARQUATO Staz.",
+           "o": "20:35",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "20:40",
+           "note": ""
+          }
+         ],
+         "s": "19:45",
+         "e": "20:40",
+         "d": ""
+        }
+       ],
+       "note": ""
+      },
+      {
+       "c": "Lu810",
+       "t": "11113",
+       "s": "06:45",
+       "e": "19:50",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Lugagnano",
+           "o": "06:45",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "07:00",
+           "note": ""
+          }
+         ],
+         "s": "06:45",
+         "e": "07:00",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14304-2430 6",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "07:00",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "07:13",
+           "note": ""
+          },
+          {
+           "n": "C.ARQUATO Staz.",
+           "o": "07:20",
+           "note": ""
+          },
+          {
+           "n": "Lusurasco",
+           "o": "07:20",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "07:34",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "07:48",
+           "note": ""
+          },
+          {
+           "n": "PONTENURE c.",
+           "o": "07:54",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "08:14",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "08:19",
+           "note": ""
+          }
+         ],
+         "s": "07:00",
+         "e": "08:19",
+         "d": "Entra a Crocetta e a Lusurasco."
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "P.le Milano",
+           "o": "08:19",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "08:26",
+           "note": ""
+          }
+         ],
+         "s": "08:19",
+         "e": "08:26",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "08:26",
+         "e": "14:00",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE17",
+         "led": "11701-2172 1702",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "14:00",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "14:05",
+           "note": ""
+          },
+          {
+           "n": "RIVERGARO P.za",
+           "o": "14:30",
+           "note": ""
+          },
+          {
+           "n": "BOBBIO P.za S.F.",
+           "o": "15:10",
+           "note": ""
+          }
+         ],
+         "s": "14:00",
+         "e": "15:10",
+         "d": "Corsia 10"
+        },
+        {
+         "k": "pausa",
+         "s": "15:10",
+         "e": "15:30",
+         "d": "Sosta BOBBIO P.za S.F."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE17",
+         "led": "11722-2172 26",
+         "f": [
+          {
+           "n": "BOBBIO P.za S.F.",
+           "o": "15:30",
+           "note": ""
+          },
+          {
+           "n": "RIVERGARO P.za",
+           "o": "16:10",
+           "note": ""
+          },
+          {
+           "n": "v.IV Novembre Sc",
+           "o": "16:35",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "16:42",
+           "note": ""
+          }
+         ],
+         "s": "15:30",
+         "e": "16:42",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "16:42",
+           "note": ""
+          },
+          {
+           "n": "Dep.Piacenza",
+           "o": "16:57",
+           "note": ""
+          }
+         ],
+         "s": "16:42",
+         "e": "16:57",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "16:57",
+         "e": "18:10",
+         "d": "Sosta Dep.Piacenza"
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Piacenza",
+           "o": "18:10",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "18:25",
+           "note": ""
+          }
+         ],
+         "s": "18:10",
+         "e": "18:25",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14301-2430 17",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "18:25",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "18:59",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "19:20",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "19:35",
+           "note": ""
+          }
+         ],
+         "s": "18:25",
+         "e": "19:35",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "19:35",
+           "note": ""
+          },
+          {
+           "n": "Dep.Lugagnano",
+           "o": "19:50",
+           "note": ""
+          }
+         ],
+         "s": "19:35",
+         "e": "19:50",
+         "d": "Corsa a vuoto"
+        }
+       ],
+       "note": ""
+      },
+      {
+       "c": "Lu812",
+       "t": "11110",
+       "s": "06:50",
+       "e": "20:45",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE45",
+         "led": "14504-2452 10",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:50",
+           "note": ""
+          },
+          {
+           "n": "Prato Ottesola b",
+           "o": "06:55",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "07:15",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, ro",
+           "o": "07:47",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "07:50",
+           "note": ""
+          }
+         ],
+         "s": "06:50",
+         "e": "07:50",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "P.le Milano",
+           "o": "07:50",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "07:57",
+           "note": ""
+          }
+         ],
+         "s": "07:50",
+         "e": "07:57",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "07:57",
+         "e": "09:54",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15101-2510 5",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "09:54",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "10:24",
+           "note": ""
+          }
+         ],
+         "s": "09:54",
+         "e": "10:24",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "10:24",
+         "e": "10:30",
+         "d": "Sosta CARPANETO Mun."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15102-2510 10",
+         "f": [
+          {
+           "n": "CARPANETO Mun.",
+           "o": "10:30",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "11:00",
+           "note": ""
+          }
+         ],
+         "s": "10:30",
+         "e": "11:00",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "11:00",
+         "e": "12:05",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14301-2430 7",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "12:05",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "12:39",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "13:00",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "13:15",
+           "note": ""
+          }
+         ],
+         "s": "12:05",
+         "e": "13:15",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "13:15",
+         "e": "13:20",
+         "d": "Sosta VERNASCA Piazza"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14303-2434 22",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "13:20",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "13:30",
+           "note": ""
+          }
+         ],
+         "s": "13:20",
+         "e": "13:30",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "13:30",
+         "e": "18:30",
+         "d": "Sosta Dep.Lugagnano"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14128-2410 30",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "18:30",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "18:55",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "19:27",
+           "note": ""
+          }
+         ],
+         "s": "18:30",
+         "e": "19:27",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "19:27",
+         "e": "19:50",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 33",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "19:50",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "20:20",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "20:45",
+           "note": ""
+          }
+         ],
+         "s": "19:50",
+         "e": "20:45",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": ""
+      },
+      {
+       "c": "Lu711",
+       "t": "11111",
+       "s": "06:10",
+       "e": "12:50",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "PCE46",
+         "led": "14604-2461 4",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:10",
+           "note": ""
+          },
+          {
+           "n": "Bacedasco Alto",
+           "o": "06:30",
+           "note": ""
+          },
+          {
+           "n": "Lusurasco",
+           "o": "06:53",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "07:00",
+           "note": ""
+          }
+         ],
+         "s": "06:10",
+         "e": "07:00",
+         "d": "A Fiorenzuola FS, in coincid. da Borla e per PC"
+        },
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "07:00",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "07:14",
+           "note": ""
+          }
+         ],
+         "s": "07:00",
+         "e": "07:14",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "pausa",
+         "s": "07:14",
+         "e": "07:20",
+         "d": "Sosta CARPANETO Mun."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15122-2510 28",
+         "f": [
+          {
+           "n": "CARPANETO Mun.",
+           "o": "07:20",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "07:55",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "08:00",
+           "note": ""
+          }
+         ],
+         "s": "07:20",
+         "e": "08:00",
+         "d": ""
+        },
+        {
+         "k": "corsa",
+         "l": "PCE11",
+         "led": "11131-2111 103",
+         "f": [
+          {
+           "n": "P.le Milano",
+           "o": "08:00",
+           "note": ""
+          },
+          {
+           "n": "V,Taverna 49 Osp",
+           "o": "08:07",
+           "note": ""
+          },
+          {
+           "n": "S.NICOLO' Centro",
+           "o": "08:17",
+           "note": ""
+          },
+          {
+           "n": "CSG p.za Gramsci",
+           "o": "08:37",
+           "note": ""
+          },
+          {
+           "n": "BORGONOVO Osp.",
+           "o": "08:47",
+           "note": ""
+          },
+          {
+           "n": "BORGONOVO P.R.",
+           "o": "08:49",
+           "note": ""
+          }
+         ],
+         "s": "08:00",
+         "e": "08:49",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "08:49",
+         "e": "09:01",
+         "d": "Sosta BORGONOVO P.R."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE11",
+         "led": "11104-2111 106",
+         "f": [
+          {
+           "n": "BORGONOVO P.R.",
+           "o": "09:01",
+           "note": ""
+          },
+          {
+           "n": "BORGONOVO St.",
+           "o": "09:02",
+           "note": ""
+          },
+          {
+           "n": "S.NICOLO' Centro",
+           "o": "09:28",
+           "note": ""
+          },
+          {
+           "n": "V,Taverna 49 Osp",
+           "o": "09:39",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, rot",
+           "o": "09:49",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "09:54",
+           "note": ""
+          }
+         ],
+         "s": "09:01",
+         "e": "09:54",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "09:54",
+         "e": "11:54",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE51",
+         "led": "15101-2510 9",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "11:54",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "12:24",
+           "note": ""
+          }
+         ],
+         "s": "11:54",
+         "e": "12:24",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "12:24",
+         "e": "12:25",
+         "d": "Sosta CARPANETO Mun."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2411 5",
+         "f": [
+          {
+           "n": "CARPANETO Mun.",
+           "o": "12:25",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "12:50",
+           "note": ""
+          }
+         ],
+         "s": "12:25",
+         "e": "12:50",
+         "d": "In coincidenza da/per PC · Parte dal capolinea della sub."
+        }
+       ],
+       "note": ""
+      },
+      {
+       "c": "Lu811",
+       "t": "11112",
+       "s": "06:20",
+       "e": "18:50",
+       "v": [
+        {
+         "k": "corsa",
+         "l": "CV",
+         "led": "",
+         "f": [
+          {
+           "n": "Dep.Lugagnano",
+           "o": "06:20",
+           "note": ""
+          },
+          {
+           "n": "VERNASCA Piazza",
+           "o": "06:35",
+           "note": ""
+          }
+         ],
+         "s": "06:20",
+         "e": "06:35",
+         "d": "Corsa a vuoto"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE43",
+         "led": "14304-2430 40",
+         "f": [
+          {
+           "n": "VERNASCA Piazza",
+           "o": "06:35",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "06:48",
+           "note": ""
+          },
+          {
+           "n": "FIORENZUOLA FS",
+           "o": "07:12",
+           "note": ""
+          },
+          {
+           "n": "ROVELETO c.",
+           "o": "07:23",
+           "note": ""
+          },
+          {
+           "n": "CADEO Via Emilia",
+           "o": "07:27",
+           "note": ""
+          },
+          {
+           "n": "PONTENURE c.",
+           "o": "07:30",
+           "note": ""
+          },
+          {
+           "n": "P.le Marconi, ro",
+           "o": "07:47",
+           "note": ""
+          },
+          {
+           "n": "P.le Milano",
+           "o": "07:50",
+           "note": ""
+          }
+         ],
+         "s": "06:35",
+         "e": "07:50",
+         "d": "Entra a Crocetta."
+        },
+        {
+         "k": "pausa",
+         "s": "07:57",
+         "e": "10:05",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE11",
+         "led": "11119-2111 107",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "10:05",
+           "note": ""
+          },
+          {
+           "n": "V,Taverna 49 Osp",
+           "o": "10:16",
+           "note": ""
+          },
+          {
+           "n": "S.NICOLO' Centro",
+           "o": "10:26",
+           "note": ""
+          },
+          {
+           "n": "CSG p.za Gramsci",
+           "o": "10:46",
+           "note": ""
+          },
+          {
+           "n": "BORGONOVO Osp.",
+           "o": "10:56",
+           "note": ""
+          },
+          {
+           "n": "BORGONOVO P.R.",
+           "o": "10:58",
+           "note": ""
+          }
+         ],
+         "s": "10:05",
+         "e": "10:58",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "10:58",
+         "e": "11:01",
+         "d": "Sosta BORGONOVO P.R."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE11",
+         "led": "11104-2111 110",
+         "f": [
+          {
+           "n": "BORGONOVO P.R.",
+           "o": "11:01",
+           "note": ""
+          },
+          {
+           "n": "BORGONOVO St.",
+           "o": "11:02",
+           "note": ""
+          },
+          {
+           "n": "CSG p.za Gramsci",
+           "o": "11:09",
+           "note": ""
+          },
+          {
+           "n": "S.NICOLO' Centro",
+           "o": "11:28",
+           "note": ""
+          },
+          {
+           "n": "Via Taverna (Ospedale)",
+           "o": "11:39",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "11:54",
+           "note": ""
+          }
+         ],
+         "s": "11:01",
+         "e": "11:54",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "11:54",
+         "e": "14:03",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 41",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "14:03",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "14:35",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "15:00",
+           "note": ""
+          }
+         ],
+         "s": "14:03",
+         "e": "15:00",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        },
+        {
+         "k": "pausa",
+         "s": "15:00",
+         "e": "16:50",
+         "d": "Sosta Dep.Lugagnano"
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14128-2410 28",
+         "f": [
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "16:50",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "17:15",
+           "note": ""
+          },
+          {
+           "n": "LUPA-Autost.",
+           "o": "17:47",
+           "note": ""
+          }
+         ],
+         "s": "16:50",
+         "e": "17:47",
+         "d": ""
+        },
+        {
+         "k": "pausa",
+         "s": "17:47",
+         "e": "17:55",
+         "d": "Sosta LUPA-Autost."
+        },
+        {
+         "k": "corsa",
+         "l": "PCE41",
+         "led": "14101-2410 25",
+         "f": [
+          {
+           "n": "LUPA-Autost.",
+           "o": "17:55",
+           "note": ""
+          },
+          {
+           "n": "CARPANETO Mun.",
+           "o": "18:25",
+           "note": ""
+          },
+          {
+           "n": "LUGAGNANO P.za",
+           "o": "18:50",
+           "note": ""
+          }
+         ],
+         "s": "17:55",
+         "e": "18:50",
+         "d": "A Carpaneto osserva fermata \"Pasticceria\"."
+        }
+       ],
+       "note": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Invernali festivi 26/27",
+   "subs": [
+    {
+     "n": "Serie turni",
+     "rows": []
+    },
+    {
+     "n": "Lunedì-Venerdì",
+     "rows": []
+    },
+    {
+     "n": "Sabato",
+     "rows": []
+    }
+   ]
+  },
+  {
+   "n": "Estivi 26/27",
+   "subs": [
+    {
+     "n": "Serie turni",
+     "rows": []
+    },
+    {
+     "n": "Lunedì-Venerdì",
+     "rows": []
+    },
+    {
+     "n": "Sabato",
+     "rows": []
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "id": "hhumh4",
+   "m": "9450",
+   "rs": {
+    "0": "2"
+   },
+   "n": "Toscani Danilo",
+   "b": "634"
+  },
+  {
+   "id": "y39xsj",
+   "m": "8623",
+   "rs": {
+    "0": "3"
+   },
+   "n": "Schiavi Paolo",
+   "b": "641"
+  },
+  {
+   "id": "hhu08d",
+   "m": "9752",
+   "rs": {
+    "0": "4"
+   },
+   "n": "Migli Giuliana",
+   "b": "632"
+  },
+  {
+   "id": "rihq5w",
+   "m": "9335",
+   "rs": {
+    "0": "5"
+   },
+   "n": "Tosi Federico",
+   "b": "638"
+  },
+  {
+   "id": "cbssf5",
+   "m": "9297",
+   "rs": {
+    "0": "6"
+   },
+   "n": "Varducci Davide",
+   "b": "637"
+  },
+  {
+   "id": "wp9bg3",
+   "m": "9185",
+   "rs": {
+    "0": "7"
+   },
+   "n": "Di Micieli Fabio",
+   "b": "639"
+  },
+  {
+   "id": "lhn9po",
+   "m": "8423",
+   "rs": {
+    "0": "8"
+   },
+   "n": "Casali Patrik",
+   "b": "642"
+  },
+  {
+   "id": "v4ssl8",
+   "m": "9573",
+   "rs": {
+    "0": "9"
+   },
+   "n": "Manzo Francesco ",
+   "b": "633"
+  },
+  {
+   "id": "0ymd88",
+   "m": "9387",
+   "rs": {
+    "0": "10"
+   },
+   "n": "Bogormova Tanka",
+   "b": "634"
+  }
+ ],
+ "park": [
+  {
+   "id": "0j62mk",
+   "s": "1 Vicino muro",
+   "b": "800"
+  },
+  {
+   "id": "h6iwba",
+   "b": "803",
+   "s": "2"
+  },
+  {
+   "id": "foqswn",
+   "s": "3",
+   "b": "700"
+  },
+  {
+   "id": "ypq23a",
+   "s": "4 Vicino Auto",
+   "b": "701"
+  }
+ ],
+ "sched": {
+  "me": {
+   "days": {
+    "2026-10-10": "Lu810",
+    "2026-10-17": "Lu711"
+   }
+  },
+  "hhumh4": {
+   "days": {}
+  },
+  "y39xsj": {
+   "days": {}
+  },
+  "hhu08d": {
+   "days": {
+    "2026-10-10": "Lu714",
+    "2026-10-17": "Lu812"
+   }
+  },
+  "rihq5w": {
+   "days": {}
+  },
+  "cbssf5": {
+   "days": {}
+  },
+  "wp9bg3": {
+   "days": {}
+  },
+  "lhn9po": {
+   "days": {}
+  },
+  "v4ssl8": {
+   "days": {}
+  },
+  "0ymd88": {
+   "days": {}
+  }
+ },
+ "sel": "hhumh4",
+ "set": {
+  "name": "Villani Alessandro",
+  "logo": "",
+  "ws": 1,
+  "theme": "auto",
+  "times": true,
+  "acc": "#b80000",
+  "cyl": [
+   {
+    "f": 0,
+    "d": "2026-09-21"
+   },
+   {
+    "f": 1,
+    "d": "2026-12-22"
+   },
+   {
+    "f": 2,
+    "d": "2027-06-14"
+   }
+  ],
+  "rows": {
+   "0": 1
+  }
+ },
+ "seed1": 1,
+ "seed2": 1,
+ "seed3": 1,
+ "seed4": 1,
+ "seed5": 1,
+ "is": 0,
+ "seed6": 1,
+ "ev": [
+  {
+   "id": "5fv3ud",
+   "days": [],
+   "wd": [
+    4
+   ],
+   "from": "19:00",
+   "to": "19:40",
+   "cond": "lavoro",
+   "text": "⚠️"
+  },
+  {
+   "id": "xpurvo",
+   "days": [],
+   "wd": [
+    4
+   ],
+   "from": "19:41",
+   "to": "22:00",
+   "cond": "lavoro",
+   "text": "❌️"
+  },
+  {
+   "id": "2tewiq",
+   "days": [],
+   "wd": [
+    6
+   ],
+   "from": "08:45",
+   "to": "11:00",
+   "cond": "lavoro",
+   "text": "🚌"
+  }
+ ],
+ "seed7": 1,
+ "swaps": [
+  {
+   "id": "zxuqzl",
+   "d": "2026-10-10",
+   "p": "me",
+   "x": "hhu08d"
+  },
+  {
+   "id": "4d1op8",
+   "d": "2026-10-17",
+   "p": "me",
+   "x": "hhu08d"
+  }
+ ],
+ "seed8": 1,
+ "seed9": 1
+}
