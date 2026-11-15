@@ -2046,12 +2046,13 @@ async function apiFetch(url,method,body){let code='';try{code=localStorage.getIt
  return r}
 async function scanApi(blob){if(location.protocol!='http:'&&location.protocol!='https:')throw{code:'loc'};
  let r;try{r=await apiFetch('/api/scan','POST',{image:await b64(blob)})}catch(e){throw e&&e.code?e:{code:'net'}}
- if(r.status==404||r.status==405||r.status==501)throw{code:'na'};
+ if(r.status==501)throw{code:'key'};
+ if(r.status==404||r.status==405)throw{code:'na'};
  if(r.status==413)throw{code:'big'};
  if(!r.ok){let t='';try{t=(await r.text()).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().slice(0,200)}catch(e){}throw{code:'srv',st:r.status,t}}
  try{return await r.json()}catch(e){throw{code:'srv',st:r.status,t:'Risposta non valida'}}}
 function scanErr(e){const c=e&&e.code;
- return c=='auth'?'Codice di accesso non valido.':c=='na'?'La lettura da foto non è configurata su questo sito (manca /api/scan).':c=='loc'?'La lettura da foto funziona solo aprendo l\'app dal suo indirizzo web, non dal file scaricato o dall\'anteprima.':c=='net'?'Non riesco a raggiungere il server: controlla la connessione e riprova.':c=='img'?'Il telefono non riesce ad aprire questa immagine: prova a scattare la foto direttamente o a usare un file JPG.':c=='big'?'La foto è troppo pesante per il server.':c=='srv'?'Il server ha risposto con un errore ('+esc(e.st)+')'+(e.t?': '+esc(e.t):'.'):'Riprova con una foto più nitida, con tutta la tabella inquadrata.'}
+ return c=='auth'?'Codice di accesso non valido.':c=='na'?'La lettura da foto non è configurata su questo sito (manca /api/scan).':c=='key'?'Sul server manca la chiave Anthropic (ANTHROPIC_API_KEY).':c=='loc'?'La lettura da foto funziona solo aprendo l\'app dal suo indirizzo web, non dal file scaricato o dall\'anteprima.':c=='net'?'Non riesco a raggiungere il server: controlla la connessione e riprova.':c=='img'?'Il telefono non riesce ad aprire questa immagine: prova a scattare la foto direttamente o a usare un file JPG.':c=='big'?'La foto è troppo pesante per il server.':c=='srv'?'Il server ha risposto con un errore ('+esc(e.st)+')'+(e.t?': '+esc(e.t):'.'):'Riprova con una foto più nitida, con tutta la tabella inquadrata.'}
 async function scan(el){const f=el.files[0];el.value='';if(!f)return;ed=null;
  md.innerHTML='<div class=mb><h3>Lettura della foto…</h3><div class=m>Sto leggendo il turno, può servire qualche secondo.</div></div>';md.className='on';
  try{const d=await scanApi(await shrink(f));
