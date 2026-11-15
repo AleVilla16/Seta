@@ -2035,7 +2035,7 @@ function rnF(f){const v=rnm.value.trim();if(v){S.folders[f].n=v;save()}nav.rn=0;
 const det=r=>(r.v||[]).map(x=>x.k=='pausa'?`☕ Pausa ${esc(x.s)}–${esc(x.e)}${x.d?' · '+esc(x.d):''}`:`🚌 <b>${x.l?'Linea '+esc(x.l):'Corsa'}</b>${x.led?' · LED '+esc(x.led):''} ${esc(x.s)}–${esc(x.e)}${x.d&&!(x.f||[]).length?' · '+esc(x.d):''}${(x.f||[]).map(y=>`<div style="padding-left:22px">${esc(y.o)} ${esc(y.n)}${y.note?' · 📝 '+esc(y.note):''}</div>`).join('')}${x.d&&x.l!='CV'&&(x.f||[]).length?`<div class=m style="padding-left:22px">⚠️ ${esc(x.d)}</div>`:''}`).join('<br>');
 const tm=s=>{const m=String(s||'').match(/(\d{1,2})[:.hH](\d{2})/);return m?pad(m[1])+':'+m[2]:''};
 let draft=null,ed=null;
-const shrink=f=>new Promise((ok,ko)=>{const u=URL.createObjectURL(f),im=new Image();im.onload=()=>{const k=Math.min(1,1600/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;c.getContext('2d').drawImage(im,0,0,c.width,c.height);URL.revokeObjectURL(u);c.toBlob(b=>b?ok(b):ko({}),'image/jpeg',.85)};im.onerror=ko;im.src=u});
+const shrink=f=>new Promise((ok,ko)=>{const u=URL.createObjectURL(f),im=new Image();im.onload=()=>{const k=Math.min(1,1600/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;c.getContext('2d').drawImage(im,0,0,c.width,c.height);URL.revokeObjectURL(u);c.toBlob(b=>b?ok(b):ko({code:'img'}),'image/jpeg',.85)};im.onerror=()=>ko({code:'img'});im.src=u});
 const nc=()=>({tipo:'corsa',linea:'',led:'',fermate:[{n:'',o:''}],inizio:'',fine:'',descrizione:''});
 function dlFile(name,data,type){const b=data instanceof Blob?data:new Blob([data],{type:type||'application/octet-stream'}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000)}
 const b64=b=>new Promise((ok,ko)=>{const r=new FileReader();r.onload=()=>ok(String(r.result).split(',')[1]);r.onerror=ko;r.readAsDataURL(b)});
@@ -2044,15 +2044,19 @@ async function apiFetch(url,method,body){let code='';try{code=localStorage.getIt
  let r=await call();
  if(r.status==401){const c=window.prompt('Codice di accesso:');if(!c)throw{code:'auth'};code=c.trim();r=await call();if(r.status==401)throw{code:'auth'};try{localStorage.setItem('appcode',code)}catch(e){}}
  return r}
-async function scanApi(blob){const r=await apiFetch('/api/scan','POST',{image:await b64(blob)});
- if(r.status==404||r.status==501)throw{code:'na'};
- if(!r.ok)throw{code:'err'};
- return await r.json()}
+async function scanApi(blob){if(location.protocol!='http:'&&location.protocol!='https:')throw{code:'loc'};
+ let r;try{r=await apiFetch('/api/scan','POST',{image:await b64(blob)})}catch(e){throw e&&e.code?e:{code:'net'}}
+ if(r.status==404||r.status==405||r.status==501)throw{code:'na'};
+ if(r.status==413)throw{code:'big'};
+ if(!r.ok){let t='';try{t=(await r.text()).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().slice(0,200)}catch(e){}throw{code:'srv',st:r.status,t}}
+ try{return await r.json()}catch(e){throw{code:'srv',st:r.status,t:'Risposta non valida'}}}
+function scanErr(e){const c=e&&e.code;
+ return c=='auth'?'Codice di accesso non valido.':c=='na'?'La lettura da foto non è configurata su questo sito (manca /api/scan).':c=='loc'?'La lettura da foto funziona solo aprendo l\'app dal suo indirizzo web, non dal file scaricato o dall\'anteprima.':c=='net'?'Non riesco a raggiungere il server: controlla la connessione e riprova.':c=='img'?'Il telefono non riesce ad aprire questa immagine: prova a scattare la foto direttamente o a usare un file JPG.':c=='big'?'La foto è troppo pesante per il server.':c=='srv'?'Il server ha risposto con un errore ('+esc(e.st)+')'+(e.t?': '+esc(e.t):'.'):'Riprova con una foto più nitida, con tutta la tabella inquadrata.'}
 async function scan(el){const f=el.files[0];el.value='';if(!f)return;ed=null;
  md.innerHTML='<div class=mb><h3>Lettura della foto…</h3><div class=m>Sto leggendo il turno, può servire qualche secondo.</div></div>';md.className='on';
  try{const d=await scanApi(await shrink(f));
   draft={tabella:String(d.tabella||''),codice:String(d.codice||''),inizio:tm(d.inizio),fine:tm(d.fine),voci:(d.voci||[]).map(x=>x.tipo=='pausa'?{tipo:'pausa',inizio:tm(x.inizio),fine:tm(x.fine),descrizione:String(x.descrizione||'')}:{tipo:'corsa',linea:String(x.linea||''),led:String(x.codice_led||x.led||''),fermate:(x.fermate||[]).map(y=>({n:String(y.nome||''),o:tm(y.orario)})),inizio:tm(x.inizio),fine:tm(x.fine),descrizione:String(x.descrizione||'')})};const g=String(d.giorni||''),w=g.slice(0,5).replace(/-/g,''),k=g[5]&&g[5]!='-'&&!w?'sab':w.length>2?'lun':'~';draft.f=nav.f==null?0:nav.f;draft.s=nav.s!=null?nav.s:Math.max(0,S.folders[draft.f].subs.findIndex(x=>x.n.toLowerCase().includes(k)));review()
- }catch(e){md.innerHTML=`<div class=mb><h3>Non sono riuscito a leggere la foto</h3><div class=m>${e&&e.code=='auth'?'Codice di accesso non valido.':e&&e.code=='na'?'La lettura da foto non è ancora configurata sul server.':'Riprova con una foto più nitida, con tutta la tabella inquadrata.'}</div><button onclick="cm()">Chiudi</button></div>`}}
+ }catch(e){md.innerHTML=`<div class=mb><h3>Non sono riuscito a leggere la foto</h3><div class=m>${scanErr(e)}</div><button onclick="cm()">Chiudi</button></div>`}}
 function edit(f,s,i){const r=S.folders[f].subs[s].rows[i];nav.f=f;nav.s=s;ed=i;
  draft={f,s,tabella:r.t||'',codice:r.c||'',inizio:r.s||'',fine:r.e||'',voci:(r.v||[]).map(x=>x.k=='pausa'?{tipo:'pausa',inizio:x.s||'',fine:x.e||'',descrizione:x.d||''}:{tipo:'corsa',linea:x.l||'',led:x.led||'',fermate:(x.f||[]).map(y=>({n:y.n||'',o:y.o||'',note:y.note||''})),inizio:x.s||'',fine:x.e||'',descrizione:x.d||''})};
  md.className='on';review()}
