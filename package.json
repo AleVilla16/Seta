@@ -1,0 +1,6 @@
+{
+  "name": "i-miei-turni",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" }
+}
