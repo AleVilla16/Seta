@@ -1,8 +1,9 @@
 // /api/scan — legge la foto di un turno e restituisce i dati in JSON.
+// Funziona solo per chi ha effettuato l'accesso con un account.
 // Variabili d'ambiente su Vercel:
 //   ANTHROPIC_API_KEY  (obbligatoria) chiave API di Anthropic
-//   ACCESS_CODE        (consigliata)  codice di accesso chiesto dall'app
 //   SCAN_MODEL         (facoltativa)  modello da usare
+import { userFrom, readBody } from '../lib/supabase.js';
 const MODEL = process.env.SCAN_MODEL || 'claude-sonnet-5-5';
 
 const PROMPT = `Questa è la foto di un turno di guida di un autista di autobus (tabella stampata, a volte con annotazioni a mano).
@@ -20,19 +21,9 @@ Leggi tutta la tabella e rispondi SOLO con un oggetto JSON, senza testo prima o 
 }
 Regole: metti le voci in ordine di orario; riporta tutte le fermate con orario di ogni corsa; orari sempre nel formato 24 ore HH:MM; se un dato non si legge usa una stringa vuota e non inventarlo.`;
 
-async function readBody(req) {
-  if (req.body && typeof req.body === 'object') return req.body;
-  if (typeof req.body === 'string') return JSON.parse(req.body);
-  let s = '';
-  for await (const c of req) s += c;
-  return JSON.parse(s || '{}');
-}
-
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(400).json({ error: 'Usa POST' });
-  const want = process.env.ACCESS_CODE;
-  if (want && String(req.headers['x-access-code'] || '').trim() !== want)
-    return res.status(401).json({ error: 'Codice di accesso non valido' });
+  if (!(await userFrom(req))) return res.status(401).json({ error: 'login' });
   const key = process.env.ANTHROPIC_API_KEY;
   if (!key) return res.status(501).json({ error: 'Manca ANTHROPIC_API_KEY' });
 
